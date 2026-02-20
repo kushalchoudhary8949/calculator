@@ -1,0 +1,39 @@
+#container{
+    height: 70vh;
+    width: 70vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#body{
+    height: 50vh;
+    width: 50vh;
+    background-color: aquamarine;
+    border: 2px white solid ;
+    border-radius: 5px;
+    display:flex;
+    flex-direction: column;
+     
+     align-items: center;
+}
+#screen{
+    width:335px;
+    height: 80px;
+    background-color: rgb(93, 93, 155);
+    border-radius: 5px;
+}
+#buttons{
+    width:335px;
+    height: fit-content;
+    text-align: center;
+    background-color: brown;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.control{
+    width: 70px;
+    height: 55px;
+    border-radius: 5px;
+
+}
